@@ -37,10 +37,6 @@ body {
 	text-size-adjust: none;
 }
 
-body.loading * {
-	animation: none !important;
-}
-
 ul {
 	list-style: none;
 }

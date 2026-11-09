@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>Viyana Yılbaşı Gezisi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -199,9 +200,9 @@ footer .checker { margin-bottom: 18px; }
       </div>
     </div>
     <div class="facts">
-      <div class="fact"><p class="k">Gidiş</p><p class="v">29 Aralık Salı</p><p>PC901, SAW 08:45 – VIE 09:05</p></div>
-      <div class="fact"><p class="k">Dönüş</p><p class="v">2 Ocak Cumartesi</p><p>PC906, VIE 18:15 – SAW 22:30</p></div>
-      <div class="fact"><p class="k">Otel</p><p class="v">The Cloud One Wien-Rathaus</p><p>Josefstädter Straße 10–12, 1080 Wien</p></div>
+      <div class="fact"><p class="k">Gidiş</p><p class="v">29 Aralık Salı</p><p>İstanbul → Viyana, sabah</p></div>
+      <div class="fact"><p class="k">Dönüş</p><p class="v">2 Ocak Cumartesi</p><p>Viyana → İstanbul, akşam</p></div>
+      <div class="fact"><p class="k">Konaklama</p><p class="v">Josefstadt</p><p>Rathaus'a yürüme mesafesi</p></div>
     </div>
     <nav class="jump" aria-label="Bölümler">
       <a href="#plan">Gün gün plan</a>
@@ -254,7 +255,7 @@ var INK='#1C2B4A',GOLD='#B88A1E',PUNCH='#B53346';
 var dayData = [
       { n: '29', m: 'Aralık', w: 'Salı', title: 'Varış ve tarihi merkez', who: 'İkiniz', four: false, nye: false, slots: [
         ['09:05', 'İniş; 10:30 civarı otel, bavulları bırakın (oda genelde 15:00\'te hazır).'],
-        ['11:00', 'Brunch: Café Eiles, otelin hemen yanında, 1840\'tan beri kahvehane.'],
+        ['11:00', 'Brunch: Café Eiles, otele çok yakın, 1840\'tan beri kahvehane.'],
         ['12:30', 'Yürüyüş: Rathaus, Parlament, Volksgarten, Hofburg, Kohlmarkt, Graben, Stephansdom. Yolda Franziskanerplatz\'a sapın.'],
         ['15:00', 'Kahve ve tatlı: Demel ya da Café Bräunerhof. Sonra otelde dinlenme.'],
         ['18:00', 'Rathausplatz\'ta Eistraum pateni ya da ışıklı meydanda yürüyüş.'],
@@ -291,7 +292,7 @@ var dayData = [
         ['10:00', 'Naschmarkt ve Cumartesi bit pazarı, 06:30–15:00.'],
         ['12:30', 'Öğle Naschmarkt\'ta; tatlı için Gregors Konditorei.'],
         ['14:30', 'Otele dönüş, bavulları alın.'],
-        ['15:15', 'Hauptbahnhof üzerinden havalimanına. 18:15 PC906.']
+        ['15:15', 'Hauptbahnhof üzerinden havalimanına.']
       ] }
     ];
 
@@ -300,7 +301,7 @@ var dayData = [
       ['bar', 'Kokteyl bar', PUNCH], ['bira', 'Bira', '#8C6A12'], ['sarap', 'Şarap', '#7A2A3A'], ['tatli', 'Tatlıcı', '#A0476B'], ['etkinlik', 'Yılbaşı etkinliği', '#3B4FA0']
     ];
     var P = [
-      ['kahve', 'Café Eiles', 'Josefstädter Str. 2, otelin yanı', '1840\'tan beri kahvehane; her saat kahvaltı.', 'Tatilde 8–24', 1, 0],
+      ['kahve', 'Café Eiles', 'Josefstädter Str. 2, 1 dk', '1840\'tan beri kahvehane; her saat kahvaltı.', 'Tatilde 8–24', 1, 0],
       ['kahve', 'Café Landtmann', 'Universitätsring 4, 5 dk', 'Ring\'de şık klasik kahvehane.', '31 Ara kahvaltı', 1, 0],
       ['kahve', 'Decentral', 'Freyung 3, otele 10 dk', 'Yenilemedeki Café Central\'ın geçici kahvehanesi; içinde iki kişilik gizli Bar Non Lieu.', '07:30–22', 1, 0],
       ['kahve', 'Café Sperl', 'Gumpendorfer Str. 11', 'Değişmemiş 1880\'ler salonu, bilardo masaları.', '30 Ara öğleden sonra', 0, 0],
@@ -309,7 +310,7 @@ var dayData = [
       ['kahve', 'Kleines Café', 'Franziskanerplatz 3', 'Hermann Czech tasarımı minik sanatçı kahvesi, gece bar gibi.', '10–02, nakit', 0, 1],
       ['kahve', 'Kaffee Alt Wien', 'Bäckerstraße 9', '1922\'den beri loş kahvehane-bar; gece yarısı gulaşı.', 'Figlmüller sonrası', 0, 1],
       ['kahve', 'Café Goldegg', 'Argentinierstraße 49', 'Belvedere\'ye yakın ahşap panelli Jugendstil kahvehane.', '31 Ara öğle', 0, 1],
-      ['restoran', 'Gastwirtschaft Blauensteiner', 'Josefstädter Str. 4, karşısı', 'Eski Viyana ev yemekleri, uygun fiyat.', '29 ve 31 Ara akşam', 1, 0],
+      ['restoran', 'Gastwirtschaft Blauensteiner', 'Josefstädter Str. 4, 1 dk', 'Eski Viyana ev yemekleri, uygun fiyat.', '29 ve 31 Ara akşam', 1, 0],
       ['restoran', 'Fromme Helene', 'Josefstädter Str. 15, 3 dk', 'Geleneksel mutfak, şık salon.', '31 Ara akşam', 1, 0],
       ['restoran', 'Figlmüller Bäckerstraße', 'Bäckerstraße 6', 'Ünlü şnitzelin ferah ikinci evi; fıçı bira, mutfak 22:00\'ye kadar.', '30 Ara akşam', 0, 0],
       ['restoran', 'Plachutta Wollzeile', 'Wollzeile 38', 'Tafelspitz; haşlanmış dana, çorbası ayrı.', '1 Oca akşam (teyit)', 0, 0],
